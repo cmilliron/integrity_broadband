@@ -1,0 +1,306 @@
+body {
+    font-family: 'Montserrat';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat-black';   
+}
+
+h1 {  
+ 
+    font-size: 3rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 3rem;  
+    line-height: 1.5;  
+}
+
+#title {
+    background-color: white;
+    color: rgba(37, 37, 37, 0.787);
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.container-fluid.inventory {
+    padding: 3% 15% 0%;
+}
+
+#title h1 {
+    font-size: 2.5rem;
+}
+
+/*  Nav Bar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+
+.nav-item {
+    padding: 0 18px;
+    
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "montserrat-light";
+}
+
+/*  Title Area */
+
+.download-button {
+    margin:5% 5%;
+
+}
+
+.title-image {
+    width: 90%;
+    
+   
+   
+/*  transform: rotate(18deg);
+    position: absolute;
+    right: 30%; */
+
+}
+
+/*  Info button Row */
+
+#features {
+    padding: 3% 15%;
+    background-color: #366a96;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+.info-container{
+    padding: 5% 3%
+   
+}
+
+.info-icons {
+    /* color: #ef8172; */
+    padding-bottom: 5%;
+
+}
+
+.info-titles {
+    font-family: "Montserrat-black";
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 15%;
+}
+
+.info-icons:hover {
+    /* color: #ff4c68; */
+    transform: scale(1.2);
+}
+
+.feature-image {
+    width: 75%;
+    
+}
+
+#features a {
+    color: #fff;
+}
+
+/* Product Offering */
+
+.offering {
+    margin-bottom: 8%;
+}
+
+
+/*  Info button Row */
+
+#testimonials {
+    background-color: #366a96;
+    color: #fff;
+    text-align: center;
+}
+
+#testimonials h2     {
+    padding-bottom: 3%;
+}
+
+
+.testimonial-image {
+    width: 10%;
+    border: 2px black;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.signature {
+    margin-top: 4%;
+}
+/*  Press section */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*  Press section */
+
+#pricing {
+    padding: 7% 10%; 
+    text-align: center;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/* Call to action */
+
+#cta {
+    background-color: #fff;
+    
+    padding: 7% 15%;
+    color: black;
+}
+
+#cta h2 {
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+#cta h3 { 
+    font-size: 3rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+    color: #fff;
+    
+}
+
+
+/* Footer */
+
+
+#footer {
+    background-color: #366a96;
+    text-align: center;
+    padding: 5% 15% 1%;
+    color: white;
+    bottom: 0;
+}
+
+#footer i {
+    padding: 2%; 
+    transform: scale(2);
+    background-color: #366a96;
+    color: white;
+    margin-left: 4%;
+}
+
+.contact-block {
+    padding-bottom: 7%;
+}
+
+.contact-block a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);     
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+/*  inventory     */
+
+#inventory .container-fluid {
+    padding: 0% 15%;
+
+    z-index: 1;
+}
+
+.table-listing {
+    margin-top: 3%;
+}
+
+.container-fluid.listing{
+    padding-top: 0%;
+}
+.inventory-row {
+    text-align: left;
+
+}
+
+.inventory-item-number {
+    width: 33%
+}
+
+
+
+/* Contact Us */
+
+.contact-container {
+    width: 60%;
+    margin: 0 auto 7%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.contact-container a {
+    color: black;
+}
+
+.container-item {
+    display:flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.contact-descriptor {
+    flex: 0 0 10%;
+    width: 10%;
+    text-align: left;
+}
+
+.contact-info {
+    flex: 1;
+    text-align: left;
+}
+
+.contact-text {
+    margin-bottom: 0%;
+}
+
+#contact-us hr {
+    margin: 4%;
+}
