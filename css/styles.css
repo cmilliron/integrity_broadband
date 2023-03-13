@@ -304,3 +304,28 @@ h2 {
 #contact-us hr {
     margin: 4%;
 }
+
+@media screen and (max-width: 480px) {
+
+    h1 {
+        font-size: 5rem;
+        line-height: 3;
+    }
+
+    h2 {
+        font-size: 5rem;
+        line-height: 3;
+    }
+
+    .nav-link {
+        font-size: 3rem;
+    }
+    
+    .info-titles {
+        font-size: 5rem;
+    }
+
+    .feature-image {
+        width: 50%;
+    }
+}
