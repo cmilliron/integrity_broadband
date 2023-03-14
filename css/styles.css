@@ -68,13 +68,6 @@ h2 {
 
 .title-image {
     width: 90%;
-    
-   
-   
-/*  transform: rotate(18deg);
-    position: absolute;
-    right: 30%; */
-
 }
 
 /*  Info button Row */
@@ -120,6 +113,30 @@ h2 {
 }
 
 /* Product Offering */
+
+.offering-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto 8%;
+    flex-wrap: wrap;
+}
+
+.offering-container-reverse {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto 8%;
+    flex-wrap: wrap;
+}
+
+.offering-image {
+    flex: 1;
+    width: 25%;
+}
+
+.offering-text {
+    flex: 1;
+    width: 74%
+}
 
 .offering {
     margin-bottom: 8%;
@@ -332,4 +349,11 @@ h2 {
         justify-content: center;
         margin: 0% auto 3%;
     }
+    .offering-container {
+        flex-direction: column;
+    }
+    .offering-container-reverse {
+        flex-direction: column-reverse;
+    }
+
 }
