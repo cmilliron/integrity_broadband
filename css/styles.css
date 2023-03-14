@@ -138,7 +138,6 @@ h2 {
     padding-bottom: 3%;
 }
 
-
 .testimonial-image {
     width: 10%;
     border: 2px black;
@@ -153,6 +152,8 @@ h2 {
 .signature {
     margin-top: 4%;
 }
+
+
 /*  Press section */
 
 #press {
@@ -288,7 +289,7 @@ h2 {
 
 .contact-descriptor {
     flex: 0 0 10%;
-    width: 10%;
+    width: 20%;
     text-align: left;
 }
 
@@ -303,6 +304,11 @@ h2 {
 
 #contact-us hr {
     margin: 4%;
+}
+
+@media screen and (max-width: 768px) {
+    small-image {width: 50%;}
+    h1, h2 {font-size: 2rem;}
 }
 /*
 @media screen and (max-width: 768px) {
