@@ -288,7 +288,7 @@ h2 {
 }
 
 .contact-descriptor {
-    flex: 0 0 10%;
+    flex: 0 0 20%;
     width: 20%;
     text-align: left;
 }
@@ -308,59 +308,6 @@ h2 {
 
 @media screen and (max-width: 768px) {
     small-image {width: 50%;}
-    h1, h2 {font-size: 2rem;}
+    h1, h2 {font-size: 2.5rem;}
+    .nav-link {font-size: 1.8rem}
 }
-/*
-@media screen and (max-width: 768px) {
-
-    h1 {
-        font-size: 5rem;
-
-    }
-
-    h2 {
-        font-size: 5rem;
-    }
-
-    .nav-link {
-        font-size: 3rem;
-    }
-    
-    .info-titles {
-        font-size: 5rem;
-    }
-
-    .feature-image {
-        width: 50%;
-    }
-}
-*/
-/*
-@media only screen 
-        and (device-width: 540px) 
-        and (device-height: 926px) 
-        and (-webkit-device-pixel-ratio: 3) {
-            
-    h1 {
-        font-size: 5rem;
-
-    }
-
-    h2 {
-        font-size: 5rem;
-    }
-
-    .nav-link {
-        font-size: 3rem;
-    }
-    
-    .info-titles {
-        font-size: 5rem;
-    }
-
-    .feature-image {
-        width: 50%;
-    }
-}
-
-*/
