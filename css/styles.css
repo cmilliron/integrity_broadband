@@ -360,4 +360,7 @@ h2 {
         width: 60%;
         margin-bottom: 8%;
     }
+    .offering-text {
+        width: 100%;
+    }
 }
