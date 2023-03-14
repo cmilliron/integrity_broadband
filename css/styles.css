@@ -313,5 +313,7 @@ h2 {
     .container-item {
         flex-direction: column;
         text-align: center;
+        justify-content: center;
+        margin: 0 auto;
     }
 }
