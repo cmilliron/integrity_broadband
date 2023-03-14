@@ -325,10 +325,11 @@ h2 {
     .contact-descriptor {
         text-align: center;
         justify-content: center;
-        margin: 0 auto;
+        margin: 3% auto 0;
     }
     .contact-info {
         text-align: center;
         justify-content: center;
+        margin: 0% auto 3%;
     }
 }
