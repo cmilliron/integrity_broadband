@@ -305,16 +305,15 @@ h2 {
     margin: 4%;
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
     h1 {
         font-size: 5rem;
-        line-height: 3;
+
     }
 
     h2 {
         font-size: 5rem;
-        line-height: 3;
     }
 
     .nav-link {
