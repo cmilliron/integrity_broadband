@@ -21,6 +21,10 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 
+    <!-- JavaScript Files -->
+
+
+
     <!-- Font Awesome  -->
     <script src="https://kit.fontawesome.com/d22a60e639.js" crossorigin="anonymous"></script>
 
@@ -132,10 +136,10 @@
       </span>
     </div>
     <p>Copyright ©2023 Cody Milliron. All Rights Reserved.</p>
-
+    <p>Copyright ©<span id="date"></span>  Cody Milliron. All Rights Reserved.</p>
   </footer>
-
-
+  <script>document.getElementById("date").innerHTML = new Date().getFullYear()</script>
+  <script src="js/index.js"></script>
 </body>
 
 </html>
